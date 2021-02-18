@@ -4,6 +4,12 @@
             padding: 0;
         }
         
+        html,
+        body {
+            overflow-x: hidden;
+            -webkit-text-size-adjust: none;
+        }
+        
         *,
         *::before,
         *::after {
@@ -98,7 +104,7 @@
             height: 100%;
             width: 0;
             position: fixed;
-            z-index: 1;
+            z-index: 4;
             top: 0;
             right: 0;
             background-color: #111;
@@ -162,6 +168,7 @@
         }
         
         .header__contacts {
+            font-weight: 600;
             text-align: left;
             line-height: 35px;
             margin-left: 40px;
@@ -182,10 +189,6 @@
             text-align: center;
             margin: 0 auto;
             text-shadow: 4px 4px 2px rgb(255, 255, 255);
-        }
-        
-        .phone {
-            font-weight: 600;
         }
         
         .phone::before {
@@ -238,7 +241,7 @@
             font-weight: 400;
             color: #a7a9ac;
             text-transform: lowercase;
-            padding: 0 5px 0 5px;
+            padding: 0 10px 0 10px;
         }
         
         .gallery-title span {
@@ -414,6 +417,10 @@
         }
         /* Футер */
         
+        .footer {
+            position: relative;
+        }
+        
         .footer__location {
             margin-bottom: 40px;
             font-size: 25px;
@@ -449,7 +456,8 @@
         }
         
         .footer__contacts-adress span {
-            font-size: 30px;
+            font-size: 20px;
+            font-weight: 600;
         }
         
         .footer__autor {
@@ -466,20 +474,40 @@
             display: none;
         }
         
-        #button-up {
+        .footer__bridge {
             display: none;
+            position: absolute;
+            top: 120px;
+            right: 10px;
+            width: 50px;
+            height: 190px;
+            background-color: rgb(33, 33, 33, 0.5);
+            z-index: 3;
+            border-radius: 25px;
+        }
+        
+        .footer__swip-finger {
+            position: absolute;
+            top: 100px;
+            right: 0px;
+            width: 50px;
+            height: 50px;
+        }
+        
+        #button-up {
             position: fixed;
-            right: 20px;
+            right: 10px;
             bottom: 100px;
-            color: rgb(128, 123, 123);
+            color: #E018D0;
             text-align: center;
             font-size: 30px;
             padding: 10px;
             transition: .3s;
+            z-index: 5;
         }
         
         #button-up:hover {
             cursor: pointer;
-            color: rgb(156, 152, 152);
+            color: #da47cd;
             transition: .3s;
         }
