@@ -474,6 +474,11 @@
             display: none;
         }
         
+        .footer__map-first,
+        .footer__map-second {
+            z-index: 4;
+        }
+        
         .footer__bridge {
             display: none;
             position: absolute;
@@ -482,7 +487,7 @@
             width: 50px;
             height: 190px;
             background-color: rgb(33, 33, 33, 0.5);
-            z-index: 3;
+            z-index: 5;
             border-radius: 25px;
         }
         
@@ -503,7 +508,7 @@
             font-size: 30px;
             padding: 10px;
             transition: .3s;
-            z-index: 5;
+            z-index: 3;
         }
         
         #button-up:hover {
