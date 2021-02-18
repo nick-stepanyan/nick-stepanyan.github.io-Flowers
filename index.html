@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цветы в Курганинске</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__menu">
+                <nav class="header__nav">
+                    <ul class="header__menu-list">
+                        <li class="header__item-item">
+                            <a class="header__item-link" href="#галерея">Галерея</a>
+                        </li>
+                        <li class="header__item-item">
+                            <a class="header__item-link" href="#оплата">Оплата и доставка </a>
+                        </li>
+                        <li class="header__item-item">
+                            <a class="header__item-link" href="#" onclick=" alert('Тысячу извинений, но этот раздел в разработке!')">О нас </a>
+                        </li>
+
+                        <li class="header__item-item">
+                            <a class="header__item-link" href="#контакты">Контакты</a>
+                        </li>
+
+                        <li class="header__item-mobile">Цветы</li>
+                        <li class="header__item-mobile">Рассада</li>
+                    </ul>
+                </nav>
+                <div class="mob-menu">
+
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#галерея">Галерея</a>
+                        <a href="#оплата">Оплата</a>
+                        <a href="#доставка">Доставка</a>
+                        <a href="#" onclick=" alert('Тысячу извинений, но этот раздел в разработке!')">О нас </a>
+                        <a href="#контакты">Контакты</a>
+                    </div>
+                    <div id="main">
+                        <div class="mob-menu-burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</div>
+                    </div>
+                </div>
+
+                <div class="header__body">
+                    <!-- <div class="logo">
+                        <a href="#">
+                            <img src="/img/logo.png" alt="logo">
+                        </a>
+                    </div> -->
+
+                    <div class="header__contacts">
+                        <div class="header__adress">г. Курганинск, ул. Родниковская 61</div>
+                        <div class="phone">
+
+                            <a +7 href="tel:+79189635551">+7 (918) 963-55-51</a>
+                        </div>
+                        <div class="phone">
+                            <a href="tel:+77777777777">+7 (777) 777-77-77</a>
+                        </div>
+                        <div class="whatsapp"> <a href="https://wa.me/79528128128?text=Здравствуйте.%20Вопрос%20по%20поводу%20продвижения." target="_blank" title="Написать в Whatsapp" rel="noopener noreferrer">Написать в <span><img src="/img/whatsApp.svg"></span>WhatsApp</a></div>
+                    </div>
+                    <div class="header__title">
+                        <h1 class="header__title-item">Садовые цветы Рассада и саженцы Заказ и доставка</h1>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <section class="gallery" id="галерея">
+        <div class="container">
+            <div class="gallery-title title">Галерея</div>
+            <div class="gallery__cards">
+                <div class="gallery__card gallery__card-first">
+                    <div class="gallery__img">
+                        <img src="img/fl-7.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-5.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-8.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-7.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-7.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-7.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-7.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-7.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-7.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-7.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-7.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+                <div class="gallery__card">
+                    <div class="gallery__img">
+                        <img src="img/fl-7.jpg" alt="foto-flowers">
+                    </div>
+                    <button class="btn" title="Кликните для связи с нами" onclick="window.open('https://wa.me/79528128128?text=Здравствуйте. У вас есть в наличии цветы хризантемы по 350 рублей?')">
+                        <div class="gallery__title">Цветок хризантемы</div>
+                        <div class="gallery__price">350 ₽</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="about">
+                <div class="about-title title" id="оплата">Доставка и оплата</div>
+                <div class="about__title">ОПЛАТА </div>
+                <div class="about__items">
+                    <div class="about__item">
+                        <ul>
+                            <li>Наличными курьеру при доставке заказа</li>
+                            <li>Переводом денег на карту Сбербанка</li>
+                            <li>Переводом на Яндекс деньги. Яндекс кошелек 410014346798762</li>
+                            <li>По безналичному расчету для юридических лиц</li>
+                        </ul>
+                    </div>
+                    <div class="about__title-img">
+                        <img src="img/pay.png" width="300" alt="picture">
+                    </div>
+                </div>
+
+                <div class="about__title" id="доставка">ДОСТАВКА</div>
+                <div class="about__items">
+                    <div class="about__item">
+                        <ul>
+                            <li>Доставка осуществляется после оплаты заказа.</li>
+                            <li>Вежливый курьер всегда сможет передать теплые слова и пожелания Вашим близким.</li>
+                            <li>Также по желанию заказчика мы можем доставить цветы и подарки анонимно.</li>
+                            <li>Вежливый курьер всегда сможет передать теплые слова и пожелания Вашим близким.</li>
+                            <li>Заказать доставку можно по телефону +7 (918) 963-55-51 и в WhatsApp.</li>
+                        </ul>
+                    </div>
+                    <div class="about__title-img">
+                        <img src="img/delivery.png" width="300" alt="picture">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 
+    <section>
+        <div class="container">
+            <div class="slick-slider autoplay fade">
+                <div class="slider-foto">
+                    <img src="/img/fl-1.jpg" alt="picture">
+                </div>
+                <div class="slider-foto">
+                    <img src="/img/fl-2.jpg" alt="picture">
+                </div>
+                <div class="slider-foto">
+                    <img src="/img/fl-3.jpg" alt="picture">
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__maps">
+                <div class="footer__location" id="контакты">Наше месторасположение на карте</div>
+                <div class="footer__map-first">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aff8d2c4595353c601bac1035e94e2af2355a4943d928e35d8f1f3a04b05eb534&amp;width=100%&amp;height=520&amp; lang=ru_RU&amp;scroll=false"></script>
+                </div>
+                <div class="footer__map-second">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aff8d2c4595353c601bac1035e94e2af2355a4943d928e35d8f1f3a04b05eb534&amp;width=100%&amp;height=320&amp; lang=ru_RU&amp;scroll=false"></script>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__contacts header__contacts">
+
+                    <div class="phone">
+                        <a +7 href="tel:+79189635551">+7 (918) 963-55-51</a>
+                    </div>
+                    <div class="phone">
+                        <a href="tel:+77777777777">+7 (777) 777-77-77</a>
+                    </div>
+                    <div class="whatsapp"> <a href="https://wa.me/79528128128?text=Здравствуйте.%20Вопрос%20по%20поводу%20продвижения." target="_blank" title="Написать в Whatsapp" rel="noopener noreferrer">Написать в <span><img src="/img/whatsApp.svg"></span>WhatsApp</a></div>
+                </div>
+                <div class="footer__contacts-adress">г. Курганинск, ул. Родниковская 61 <br>Здесь вы найдете самые лучшие цветы по доступной цене оптом и в розницу. <br> <span>Звоните прямо сейчас!</span></div>
+                <div class="footer__autor"><br>© 2021 developed by
+                    <a href=https://wa.me/79528128128?text target="_blank"> Nickolay Stepanyan</a> <br> <span><a href="https://github.com/nick-stepanyan" target="_blank">github</a></span> </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <div id="button-up">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+</body>
+
+</html>
