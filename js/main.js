@@ -34,12 +34,12 @@ $('.slick-slider').slick({
 })
 
 
-
+// Стрелка вверх
 $(document).ready(function() {
     var button = $('#button-up');
     $(window).scroll(function() {
 
-        if ($(this).scrollTop() > 500) {
+        if ($(this).scrollTop() > 300) {
             button.fadeIn();
         } else {
             button.fadeOut();
