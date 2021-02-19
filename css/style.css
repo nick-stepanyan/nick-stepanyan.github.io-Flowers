@@ -67,9 +67,10 @@
             
             button {
                 cursor: pointer;
-                border: none;
-                outline: none;
+                border: none !important;
+                outline: none !important;
                 width: inherit;
+                background: transparent !important;
             }
             
             .header {
