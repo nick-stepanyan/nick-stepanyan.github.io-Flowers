@@ -406,22 +406,38 @@
                 font-size: 16px;
                 color: rgb(3, 42, 172);
             }
-            /* Слайдер */
             
-            .slick-slider {
-                margin: 0 0 300px;
-                border: none;
-            }
-            
-            .slider-foto img {
+            .btn-more {
+                display: flex;
+                flex-direction: column;
                 margin: 0 auto;
-                width: 1200px;
-                height: 600px;
-                object-fit: cover;
+                font-weight: 600;
+                line-height: 21px;
+                color: #212121;
+                cursor: pointer;
+                text-shadow: 1px 0px 0px rgba(0, 0, 0, 1);
             }
             
-            .slider-foto:focus {
-                outline: none;
+            .btn-more-smile {}
+            
+            .btn-more:hover {
+                background: #d8d8d8;
+            }
+            
+            .btn-more span {
+                margin-left: 10px;
+            }
+            
+            .btn-more span:hover {
+                color: #da47cd;
+            }
+            
+            .btn-more.active {
+                display: none;
+            }
+            
+            .card-link--hidden {
+                display: none;
             }
             
             .about {
