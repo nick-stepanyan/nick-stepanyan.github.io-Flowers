@@ -53,3 +53,16 @@ $(document).ready(function() {
         return false;
     });
 });
+
+
+// Кнопки изменения вида изображений в галереи
+$('.catalog__filter-btngrid ').on('click', function() {
+    $(this).addClass('catalog__filter-button--active');
+    $('.catalog__filter-btnline').removeClass('catalog__filter-button--active');
+    $('.gallery__card').removeClass('gallery__card--list');
+});
+$('.catalog__filter-btnline ').on('click', function() {
+    $(this).addClass('catalog__filter-button--active');
+    $('.catalog__filter-btngrid').removeClass('catalog__filter-button--active');
+    $('.gallery__card').addClass('gallery__card--list');
+});
