@@ -20,18 +20,7 @@ function closeNav() {
 }
 
 
-$('.slick-slider').slick({
-    draggable: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    arrows: false,
-    dots: false,
-    fade: true,
-    speed: 2500,
-    infinite: true,
-    cssEase: 'ease-in-out',
-    touchThreshold: 100
-})
+
 
 
 // Стрелка вверх
@@ -66,3 +55,20 @@ $('.catalog__filter-btnline ').on('click', function() {
     $('.catalog__filter-btngrid').removeClass('catalog__filter-button--active');
     $('.gallery__card').addClass('gallery__card--list');
 });
+
+
+// Показать еще карточки
+const btnShowMoreCards = document.querySelector('.btn-more')
+const hiddenCards = document.querySelectorAll('.card-link--hidden')
+
+// Клик по кнопке и показ оставшихся карточек
+btnShowMoreCards.addEventListener('click', function() {
+
+    hiddenCards.forEach(function(card) {
+        card.classList.remove('card-link--hidden')
+    })
+})
+
+$('.btn-more').on('click', function() {
+    $(this).toggleClass('active')
+})
