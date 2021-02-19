@@ -194,12 +194,8 @@
         margin-bottom: 20px;
     }
     .about-title {
-        display: none;
-    }
-    .about-title-copy {
-        display: block;
         margin: 40px 0;
-        letter-spacing: 3px;
+        letter-spacing: 1px;
         font-size: 25px;
     }
     .about__title-text {

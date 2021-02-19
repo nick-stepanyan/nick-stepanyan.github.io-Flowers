@@ -447,10 +447,6 @@
                 margin: 40px 0 40px 80px;
             }
             
-            .about-title-copy {
-                display: none;
-            }
-            
             .about__items {
                 display: flex;
                 align-items: center;
